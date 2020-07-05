@@ -187,7 +187,7 @@ void loop() {
        sendOSCMessage("/arduino/dialA", 1);
     }
 
-    else if (dialB_smoothed <= value_threshold*2){ // set to zero if value is close to 0
+    else if (dialA_smoothed <= value_threshold*2){ // set to zero if value is close to 0
        sendOSCMessage("/arduino/dialA", 0);
     }
 
