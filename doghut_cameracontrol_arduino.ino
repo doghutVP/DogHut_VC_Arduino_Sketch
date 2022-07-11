@@ -25,7 +25,7 @@ const int dialA_pin = 0; // analog pin connected to dialA
 const int dialB_pin = 1; // analog pin connected to dialB
 const int X_pin = 2; // analog pin connected to X output
 const int Y_pin = 3; // analog pin connected to Y output
-const int SW_pin = 13; // digital pin connected to switch output
+const int SW_pin = 12; // digital pin connected to switch output
 
 const int smoothScale = 10; // how much the analog value should be smoothed / size of array to average
 const int value_threshold = 10; // difference to ignore when changing value on dials & joystick
